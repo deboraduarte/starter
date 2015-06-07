@@ -16,5 +16,6 @@ deploy:
     - ls -lah
   on:
     repo: deboraduarte/starter
+  skip_cleanup: true
 after_success:
 - gulp build
