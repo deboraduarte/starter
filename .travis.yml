@@ -12,6 +12,8 @@ deploy:
   api_key:
     secure: iJAlj36xgo0zLW/gZDBmcECK2nHVGwRwfMJW4oRAxoT1CyWuTH+OnXL3QpdiFb9BpkebWqwlKJ28jgeuuieQ11dLq1KTGIfWNxHwngTGoqQR5G7cEgs29IwRVZ+7341BpmIic1EZ2oDHjcyn5br8tPDjIGXfsG08dZrlIoLxTZ8Ec6Vdx/v8eg0Y3wLw+vQA6426+P/YQOsSzQHvxR0d1yIMfbLNgIqXtsWfPzVuJ/stczQH2Wl97qYV1SJINED3gDH1T/wC07paqC9d7dudhPd2AuKXAm9qVjAoT/cN+8kgzn3B5g+A+VEh8fz62m/I1pQFDw2Fyg/mjr6pBIFyWYQI6lxVXRToVSC1yNJczSlYeBjLO/G6MknEBqkCdHHHzu+xCCRBYOyrZGP2NB8RQOFNTvJolE7HjJctVrm9bObOvnSNbCJ44D7AR7+Rl0Qbqwi7qS9wYFBLFf2BlcJvPE6fUmzRqmg5JYy7i5yUJdFylvVOrg/wXaIJoufwDMY7hs6NhlqvXJ0n94Xdbmhp1Gl3V+4c1Cl3g4c3h+Y1CRn8HPhXFhoS/d4Gsq7jAf0QykQeJt/NbZto/nBzRJx3kRMfWwQu4nAMdyDooclGlZlnF9N7sA17mZJTmTBgAaKZAkf2gJszBVoDZil/sIBT314GosWArcfN97V081XcA+g=
   app: starter
+  run:
+    - ls -lah
   on:
     repo: deboraduarte/starter
 after_success:
