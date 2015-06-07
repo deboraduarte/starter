@@ -31,7 +31,6 @@ gulp.task('clean', () => del(['.tmp', 'build/*', '!build/.git'], {dot: true}));
 // Static files
 gulp.task('assets', () => {
   src.assets = [
-    'package.json',
     'src/assets/**',
     'src/content*/**/*.*',
     'src/templates*/**/*.*'
